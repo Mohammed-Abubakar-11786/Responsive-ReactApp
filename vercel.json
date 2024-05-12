@@ -1,9 +1,3 @@
 {
-  "rewrites": [
-    { "source": "/", "destination": "/" },
-    { "source": "/about", "destination": "/about" },
-    { "source": "/contact", "destination": "/contact" },
-    { "source": "/github", "destination": "/github" },
-    { "source": "/user/:id", "destination": "/user/:id" }
-  ]
+  "rewrites": [{ "source": "/(.*)", "destination": "/" }]
 }

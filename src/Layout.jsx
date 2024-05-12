@@ -1,16 +1,13 @@
-import { Outlet } from "react-router-dom";
+/* import { Outlet } from "react-router-dom"; */
+import Home from "./Components/Home/Home"; /* 
 import Header from "./Components/Header/Header";
-import Footer from "./Components/Footer/Footer";
+import Footer from "./Components/Footer/Footer"; */
 
 function Layout() {
   return (
     <>
       <div className="">
-        <Header />
-        <main>
-          <Outlet />
-        </main>
-        <Footer />
+        <Home />
       </div>
       {/* <div className="min-[455px]:hidden">
         <p className="font-bold text-red-500 text-4xl px-10 py-5">

@@ -18,10 +18,10 @@ const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<Layout />}>
       <Route path="" element={<Home />} />
-      <Route path="about" element={<About />} />
-      <Route path="contact" element={<ContactUs />} />
-      <Route path="github" element={<Github />} loader={fetchGithubInfo} />
-      <Route path="user/:id" element={<User />} />
+      <Route path="about/" element={<About />} />
+      <Route path="contact/" element={<ContactUs />} />
+      <Route path="github/" element={<Github />} loader={fetchGithubInfo} />
+      <Route path="user/:id/" element={<User />} />
     </Route>
   )
 );

@@ -7,7 +7,9 @@ function Layout() {
     <>
       <div className="">
         <Header />
-        <Outlet />
+        <main>
+          <Outlet />
+        </main>
         <Footer />
       </div>
       {/* <div className="min-[455px]:hidden">

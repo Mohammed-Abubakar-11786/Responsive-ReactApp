@@ -17,7 +17,7 @@ import Github, { fetchGithubInfo } from "./Components/Github/Github";
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<Layout />}>
-      <Route path="" element={<Home />} />
+      <Route path="/" element={<Home />} />
       <Route path="about" element={<About />} />
       <Route path="contact" element={<ContactUs />} />
       <Route path="github" element={<Github />} loader={fetchGithubInfo} />
